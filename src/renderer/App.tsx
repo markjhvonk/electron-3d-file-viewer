@@ -47,8 +47,8 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Hello />} />
-        <Route path="/file-viewer" element={<FileViewer />} />
+        <Route path="/Hello" element={<Hello />} />
+        <Route path="/" element={<FileViewer />} />
       </Routes>
     </Router>
   );
